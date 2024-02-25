@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body html {
+    background-color: #f4f4f4;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.container h1 {
+    position: relative;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 4vh;
+}
+
+.container .display {
+    position: relative;
+    bottom: 1%;
+    width: 15%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: blue; */
+    font-weight: 1000;
+    font-size: 7vh;
+}
+
+.container .bt {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: red; */
+}
+
+.container .bt button {
+    position: relative;
+    width: 30%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 2.3vh;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #f4f4f4;
+    margin: 10%;
+}
